@@ -1,4 +1,4 @@
-#Principles of Data Science Final Project
+# Principles of Data Science Final Project
 
 Entering college, Ayush and I were never especially interested in football. That changed over the course of the semesters. Watching the Superbowl with friends opened our eyes to the excitement that the game brings, and with the Eagles winning this year, our love for the sport was cemented. A core part of football is fantasy football, where competitors can choose players from the entire league to be on their ‘fantasy’ team, which is judged by the individual statistics from each player throughout the season. With the key being to choose the best players, we thought it would be a rewarding and interesting challenge to try to predict what the best players would be in a fantasy football team.
 
