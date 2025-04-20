@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+:root {
+  --background: #004C54;
+  --foreground: #FFFFFf;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --text-tiny: 0.5rem
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #004C54;
+    --foreground: #FFFFFf;
+  }
+}
+
+body {
+  background: linear-gradient(0deg,rgba(0, 46, 54, 1) 0%, rgba(40, 116, 124, 1) 100%);
+  color: var(--foreground);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 100%
+}
+
+.player{
+  padding: 1px;
+  padding-right: 30px;
+  font-size: 175%;
+}
+
+.player:hover{
+  color: lightcoral;
+  transition: 0.3s all;
+  cursor: pointer;
+}
+
+.modelActive{
+  border: 3px solid red;
+}
+
+.runButton{
+  background: linear-gradient(90deg,rgba(3, 135, 80, 1) 0%, rgba(0, 133, 148, 1) 100%);
+}
+
+tr{
+  transition: 0.3s all;
+}
+
+td, th{
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+tr:hover {background-color: #008080;}
+
+a{
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#cumulativeVBD{
+  margin-top: 10px;
+  color: yellow
+}
